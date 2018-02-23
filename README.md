@@ -42,6 +42,7 @@ Linux Exclusive Database and multiprocessing **(file database is database.txt in
 External dependencies you'll need include:
 - requests
 - Pillow
+- Pysocks
 
  
  
