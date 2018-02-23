@@ -2,6 +2,11 @@ from utils import Utils
 import json
 
 
+
+#Proxy address and port
+socks.set_default_proxy(socks.SOCKS5, "INSERT_PROXY_ADDRESS", INSERT_PROXY_PORT)
+socket.socket = socks.socksocket
+
 class Update:
     ut = Utils()
 
